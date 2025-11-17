@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #d4a857; /* dorado suave */
+    margin-bottom: 30px;
+}
+
+.mantra {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #222;
+    margin: 40px 0;
+    line-height: 1.4;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.mantra.show {
+    opacity: 1;
+}
+
+.btn {
+    background-color: #e8d3a0; /* dorado muy bajo */
+    border: none;
+    padding: 14px 32px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a3d20;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d4b878;
+}
